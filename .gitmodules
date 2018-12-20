@@ -1,0 +1,3 @@
+[submodule "themes/ecommerce"]
+	path = themes/ecommerce
+	url = git@github.com:klueless-io/hugo-creative-portfolio-theme.git
