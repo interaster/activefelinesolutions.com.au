@@ -1,59 +1,136 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseurl = "https://example.org/"
+languageCode = "en-au"
 title = "Active Feline Solutions"
-theme = "ecommerce"
-# theme = "hugo-creative-portfolio-theme"
-
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
+theme = "hugo-creative-theme"
 googleAnalytics = ""
+paginate = 12
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
-  sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
-  ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "you@yoursite.com"
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = "portfolio/"
-  home = true
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
 
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
 
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
 
-  [params.social]
-  facebook      = "full page or profile url in facebook"
-  # googleplus    = "full profile url in googleplus"
-  # email         = "email@example.com"
-  # twitter       = "full profile url in twitter"
-  # linkedin      = "full profile url in linkedin"
-  # stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  # github        = "full profile url in github"
-  youtube       = "full profile url in youtube" 
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Active Feline Solutions"
+	description = "Keeping your furry friends entertained and Active while preserving your beloved furniture from their sharp claws, Active Feline Solutions for scratch problems"
+	copyright = "Copyright 2007-{year} Example LLC. All rights reserved."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Active Feline Solutions"
+		brand_logo = "img/logo_40h.png"
+
+		[params.navigation.links]
+			about     			= "About"
+			testimonials    	= "Testimonials"
+			services  			= "Services"
+			portfolio 			= "Portfolio"
+			contact   			= "Contact"
+			blog				= "Blog"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		xx_slogan     = "Pawsitively the best."
+		subtitle   = "If it not for sits, why is it made of warm?"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Solutions for your Feline's entertainment and scratch problems"
+		description = "Keeping your furry friends entertained and Active while preserving your beloved furniture from their sharp claws"
+		buttonText  = "Products!"
+		desc_old    = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+
+	# Testimonials
+	[params.testimonials]
+		headline    = "What our customers are saying..."
+
+        [[params.testimonials.list]]
+			description		= "Got my first scratch **post today** ! Great product with great price and great customer service. Highly recommended store !"
+			name			= "Ishida T."
+
+        [[params.testimonials.list]]
+			description		= "My Shopping experience at [activefelinesolutions.com](activefelinesolutions.com) has been phenomenal. It was easy to locate the products i was looking for and the price match ensured that i did not get rip off anywhere online."
+			name			= "Jenny L."
+
+        [[params.testimonials.list]]
+			description		= "I found the most suitable scratch post ! staff were friendly and i really appreciated the free gift as one of the first few new customers. Highly recommended store."
+			name			= "John P."
+
+	# Service section
+	[params.services]
+		headline = "Our Promise"
+
+        [[params.services.list]]
+            icon = "fa-truck"
+            title = "Quick & Easy Shipping"
+            description_x = "Easy door to door deliveries."
+
+        [[params.services.list]]
+			icon = "fa-money"
+			title = "Price Match Guarantee"
+			description_x = "Price match guarantee on our instore products!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Hassel Free Returns"
+            description_x = "Let us deal with it for you."
+
+        [[params.services.list]]
+            icon = "fa-phone"
+            title = "Dedicated support"
+            description_x = "Talk with our operators!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	# [params.aside]
+	# 	headline = "Expert Advice"
+
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	# [params.contact]
+	# 	headline = "Let's Get In Touch!"
+	# 	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+	# 	phone = "123-456-6789"
+	# 	email = "feedback@startbootstrap.com"
+
+	# Blog
+	[params.blog]
+		path = "/news"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

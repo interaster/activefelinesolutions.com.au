@@ -1,0 +1,102 @@
+body {
+    font-family: Lato,'Helvetica Neue',Arial,sans-serif;
+    color: #5f5e5a;
+}
+
+.bg-primary {
+    background-color: #F26629;
+}
+
+.bg-primary h2.section-heading {
+    color: #fff;
+}
+
+h1 {
+    color: #F26629;
+}
+h2.section-heading {
+    color: #F26629;
+}
+h2 {
+    color: #F26629;
+}
+
+p {
+    /* margin-bottom: 20px; */
+    font-size: 16px;
+    /* line-height: 1.5; */
+
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 1.8em;
+}
+
+
+.blog_meta span {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: smaller;
+    color: #808080;
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: #F26629;
+}
+.navbar-default .nav>li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #F26629;
+}
+.navbar-default .nav>li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #F26629;
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #F26629;
+}
+.navbar-default.affix .nav>li>a:hover,
+.navbar-default.affix .nav>li>a:focus:hover {
+    color: #F26629;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        background-color: rgb(240, 95, 64, .4);
+    }
+}
+
+hr {
+    border-color: #f05f40;
+}
+
+
+footer {
+    margin-top: 50px;
+}
+
+ul.footer_menu {
+    list-style: none;
+}
+
+.footer_menu a {
+    color: #fff;
+}
+
+.navbar-default .nav>li>a:focus:hover {
+    color: #F26629;
+}
+
+.posts h2 {
+    color: #F26629;
+}
