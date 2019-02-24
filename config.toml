@@ -42,9 +42,9 @@ paginate = 12
 			about     			= "About"
 			testimonials    	= "Testimonials"
 			services  			= "Services"
-			portfolio 			= "Portfolio"
+			portfolio 			= ""
 			contact   			= "Contact"
-			blog				= "Blog"
+			blog				= "News"
 
 
 	# Hero section
@@ -61,6 +61,11 @@ paginate = 12
 		description = "Keeping your furry friends entertained and Active while preserving your beloved furniture from their sharp claws"
 		buttonText  = "Products!"
 		desc_old    = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+
+	# Footer
+	[params.footer]
+		headline    = ""
+		description = "We provide solutions for cat owners who want the best living environment for their pets without having to sacrifice the comfort of their own."
 
 	# Testimonials
 	[params.testimonials]

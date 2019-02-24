@@ -21,6 +21,14 @@ h2 {
     color: #F26629;
 }
 
+a {
+    color: #F26629;
+}
+a:hover {
+    color: #5f5e5a;
+}
+
+
 p {
     /* margin-bottom: 20px; */
     font-size: 16px;
@@ -31,14 +39,6 @@ p {
     line-height: 1.8em;
 }
 
-
-.blog_meta span {
-    position: relative;
-    display: inline-block;
-    margin-right: 15px;
-    font-size: smaller;
-    color: #808080;
-}
 
 .section-heading {
     text-transform: uppercase;
@@ -100,3 +100,18 @@ ul.footer_menu {
 .posts h2 {
     color: #F26629;
 }
+ 
+.pagination > li > a {
+    color: #F26629;
+    border: none;
+}
+.pagination > li.disabled > span {
+    color: #F26629;
+    border: none;
+}
+.pagination > li.active > a,
+.pagination > li > a:hover {
+    color: #5f5e5a;
+    background-color: #e3e3e3;
+}
+
