@@ -1,4 +1,4 @@
-baseurl = "activefelinesolutions.com"
+baseurl = "https://activefelinesolutions.com"
 languageCode = "en-au"
 title = "Active Feline Solutions"
 theme = "hugo-creative-theme"
