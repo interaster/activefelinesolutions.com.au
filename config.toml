@@ -89,7 +89,7 @@ paginate = 12
 
         [[params.services.list]]
             icon = "fa-truck"
-            title = "Quick & Easy Shipping"
+            title = "Free & Easy Shipping"
             description_x = "Easy door to door deliveries."
 
         [[params.services.list]]
