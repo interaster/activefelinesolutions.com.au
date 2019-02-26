@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "activefelinesolutions.com"
 languageCode = "en-au"
 title = "Active Feline Solutions"
 theme = "hugo-creative-theme"
@@ -50,9 +50,9 @@ paginate = 12
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		xx_slogan     = "Pawsitively the best."
-		subtitle   = "If it not for sits, why is it made of warm?"
-		buttonText = "Find out more"
+		slogan     = ""
+		subtitle   = ""
+		buttonText = ""
 
 
 	# About section
