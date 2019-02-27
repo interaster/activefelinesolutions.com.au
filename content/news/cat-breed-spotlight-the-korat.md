@@ -7,7 +7,7 @@ image: /img/news/cat-breed-spotlight-the-korat-0-feature.jpg
 aliases: [
   'blogs/news/cat-breed-spotlight-the-korat'
 ]
-tags: []
+tags: [highlight]
 categories: []
 ---
 

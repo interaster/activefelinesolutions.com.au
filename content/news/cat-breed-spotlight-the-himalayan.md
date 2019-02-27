@@ -7,7 +7,7 @@ image: /img/news/cat-breed-spotlight-the-himalayan-0-feature.jpg
 aliases: [
   'blogs/news/cat-breed-spotlight-the-himalayan'
 ]
-tags: []
+tags: [highlight]
 categories: []
 ---
 

@@ -7,7 +7,7 @@ image: /img/news/cat-breed-spotlight-the-cymric-0-feature.jpg
 aliases: [
   'blogs/news/cat-breed-spotlight-the-cymric'
 ]
-tags: []
+tags: [highlight]
 categories: []
 ---
 

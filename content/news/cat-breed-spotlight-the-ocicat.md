@@ -7,7 +7,7 @@ image: /img/news/cat-breed-spotlight-the-ocicat-0-feature.jpg
 aliases: [
   'blogs/news/cat-breed-spotlight-the-ocicat'
 ]
-tags: []
+tags: [highlight]
 categories: []
 ---
 
