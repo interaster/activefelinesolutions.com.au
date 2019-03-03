@@ -2,8 +2,9 @@ baseurl = "https://activefelinesolutions.com"
 languageCode = "en-au"
 title = "Active Feline Solutions"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-111712204-2"
 paginate = 12
+
 
 [taxonomies]
   category = "categories"
