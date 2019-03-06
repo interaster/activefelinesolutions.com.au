@@ -37,7 +37,7 @@ paginate = 12
 	# Navigation
 	[params.navigation]
 		brand = "Active Feline Solutions"
-		brand_logo = "img/logo_40h.png"
+		brand_logo = "img/logo-40h.png"
 
 		[params.navigation.links]
 			about     			= "About"
