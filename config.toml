@@ -1,4 +1,4 @@
-baseurl = "https://activefelinesolutions.com"
+baseurl = "https://activefelinesolutions.com.au"
 languageCode = "en-au"
 title = "Active Feline Solutions"
 theme = "hugo-creative-theme"
@@ -77,7 +77,7 @@ paginate = 12
 			name			= "Ishida T."
 
         [[params.testimonials.list]]
-			description		= "My Shopping experience at [activefelinesolutions.com](activefelinesolutions.com) has been phenomenal. It was easy to locate the products i was looking for and the price match ensured that i did not get rip off anywhere online."
+			description		= "My Shopping experience at [activefelinesolutions.com.au](activefelinesolutions.com.au) has been phenomenal. It was easy to locate the products i was looking for and the price match ensured that i did not get rip off anywhere online."
 			name			= "Jenny L."
 
         [[params.testimonials.list]]
