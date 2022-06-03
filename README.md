@@ -6,5 +6,10 @@
 * https://code.luasoftware.com/tutorials/hugo/hugo-smart-pagination-template/
 * https://code.luasoftware.com/tutorials/hugo/meta-desciption-open-graph-twitter-card-for-hugo/
 
-### Sean is here
-Hi lets try and redo the forked app
+### Hugo needs homebrew
+which brew
+brew -v
+brew install hugo
+create working folder "Hugo" and cd into it
+hugo new site seantest
+eg ~/Hugo/seantest
