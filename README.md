@@ -13,3 +13,5 @@
 *  create working folder "Hugo" and cd into it
 *  hugo new site seantest
 *  eg ~/Hugo/seantest
+*  https://www.youtube.com/watch?v=0GZxidrlaRM
+
