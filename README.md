@@ -9,7 +9,7 @@
 ### Hugo needs homebrew
 *  which brew
 *  brew -v
-  brew install hugo
-  create working folder "Hugo" and cd into it
-  hugo new site seantest
-  eg ~/Hugo/seantest
+*  brew install hugo
+*  create working folder "Hugo" and cd into it
+*  hugo new site seantest
+*  eg ~/Hugo/seantest
